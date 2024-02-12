@@ -8,7 +8,8 @@
 
 **Looking for the Pixera Shader pack and fxPilot?**
 
-Go to **_Releases_** to download the latest and greatest over there on the right---->
+Go to [Releases](https://github.com/flowb/Astra-ColorTK/releases) to download the latest version ---->
+
 
 ## Introduction
 
