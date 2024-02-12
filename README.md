@@ -8,7 +8,7 @@
 
 **Looking for the Pixera Shader pack and fxPilot?**
 
-Go to Releases to download the latest and greatest ---->
+Go to **_Releases_** to download the latest and greatest over there on the right---->
 
 ## Introduction
 
