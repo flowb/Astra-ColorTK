@@ -3,10 +3,11 @@
 // DATE: 20231106_095129
 // 20240423 (mtx range input fix)
 #define TWO_PI 6.28318530718
-#define PI 3.141592653589
 #define epsilon 1.0e-10
 
-
+#ifndef PI
+#define PI 3.141592653589
+#endif
 
 float pwcos(float graph_x, vec2 a, vec2 b)
 {
