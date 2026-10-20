@@ -28,18 +28,41 @@ If you run into any problems please create an **Issue** using the Issues tab at 
 
 ## Installation
 
-The 'Astra-ColorTK' folder should be copied into the Pixera shaders directory. On my system that is:
+### Windows (installer)
+
+Download `AstraColorTK_<version>_x64-setup.exe` from [Releases](https://github.com/flowb/Astra-ColorTK/releases) and run it. It installs the control app and copies the `Astra-ColorTK` shader folder into **every Pixera installation it finds** under:
 
 ```
-C:\Program Files\AV Stumpfl\Pixera\build_2-0-20\data\effects\current
+C:\Program Files\AV Stumpfl\Pixera\<build>\data\effects\current\
 ```
 
-Launch the control application for your given platform.
-_Binaries are currently unsigned so Windows and MacOs will want you to confirm that the app is safe_
+It also keeps a reference copy of the shaders in the app's install folder under `Shaders\`. If no Pixera installation is found, the installer tells you and leaves only that reference copy to place by hand.
+
+Restart Pixera after installing so it picks up the new effects.
+
+The Windows build is **not code-signed**, so SmartScreen will warn you: choose *More info* -> *Run anyway*.
+
+Note: uninstalling the app does **not** remove the shaders from your Pixera installations; delete those folders manually if you want them gone.
+
+### macOS
+
+The macOS build is not published in this release - it still needs signing and notarization. In the meantime, install the shader pack manually and use it with Pixera as described below.
+
+### Manual shader install (any platform)
+
+Download `Astra-ColorTK-Shaders_<version>.zip` from [Releases](https://github.com/flowb/Astra-ColorTK/releases), unzip it, and copy the `Astra-ColorTK` folder into your Pixera effects directory:
+
+```
+C:\Program Files\AV Stumpfl\Pixera\<build>\data\effects\current\
+```
+
+Then launch the control application for your platform.
 
 ## Demo Videos
 
-_These installation and useage demo videos were produced with the TouchDesigner based controller. The binary applications do not require TouchDesigner._
+_These installation and usage demo videos were produced with the TouchDesigner based controller. The binary applications do not require TouchDesigner._
+
+_The installation video predates the Windows installer and shows the manual copy method - see **Installation** above for the current process. The usage video still applies._
 
 [Installation](https://www.youtube.com/watch?v=eJ9LfZCT35c)
 
