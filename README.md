@@ -46,7 +46,9 @@ Note: uninstalling the app does **not** remove the shaders from your Pixera inst
 
 ### macOS
 
-The macOS build is not published in this release - it still needs signing and notarization. In the meantime, install the shader pack manually and use it with Pixera as described below.
+Download `Astra.ColorTK_<version>_universal.dmg` from [Releases](https://github.com/flowb/Astra-ColorTK/releases), open it and drag **Astra ColorTK** into Applications. It runs on Apple Silicon and Intel Macs (macOS 11 or later) and is signed and notarized, so it opens without Gatekeeper warnings.
+
+The DMG contains only the control app. Install the shader pack on the Pixera machine, either with the Windows installer or by hand as described below.
 
 ### Manual shader install (any platform)
 
